@@ -5,14 +5,14 @@ using Microsoft.Xna.Framework.Input;
 
 namespace BounceRing.BounceRing
 {
-    public class match : Game
+    public class Match : Microsoft.Xna.Framework.Game
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
         private int isPaused = 0;
 
-        public match()
+        public Match()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
@@ -52,6 +52,7 @@ namespace BounceRing.BounceRing
                     isPaused = 0;
                     var mainMenu = new MainMenu();
                     mainMenu.Run();
+                    Exit();
                 }
             }
         }

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BounceRing", "BounceRing.csproj", "{B12496D3-7A92-4D5A-BAB3-1B35EF87B0FE}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NatunaticApi", "..\natunatic\NatunaticApi.shproj", "{A0CDBD0E-3A41-42B7-9425-A838BC2C7383}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\natunatic\natunatic.projitems*{a0cdbd0e-3a41-42b7-9425-a838bc2c7383}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal
