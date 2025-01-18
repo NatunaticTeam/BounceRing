@@ -78,8 +78,7 @@ namespace BounceRing
         {
             if (Keyboard.GetState().IsKeyDown(Keys.Enter))
             {
-                var match = new BounceRing.match();
-                match.Run();
+                
             }
         }
 
