@@ -4,7 +4,7 @@
 Check this out:
 - [Questions](#Questions)
 - [Compiling](#Compiling)
-- [More about it](about:blank)
+- [More about it](http://100.84.48.30/projects/bouncering/about)
 
 ## Questions
 ##### you may ask
@@ -21,7 +21,7 @@ Check this out:
 	- 3.- Because it's easier to track errors and things like that
 
 ## Compiling 
-For a better guide on how to compile, refer to the [Full Building instructions](./Building.md
+For a better guide on how to compile, refer to the [Full Building instructions](./Building.md)
 
 - Requirements
 	- .NET 8.0
@@ -30,4 +30,11 @@ For a better guide on how to compile, refer to the [Full Building instructions](
 	- Windows Platform Development Kit (Xbox One/Series)
 	- Visual Studio 2022
 
-- WIP
+- Step 1:
+	- Go to the BounceRing Folder (the one that only says bouncering) and open the `BounceRing.sln` file in Visual Studio 2022 (or VS Code if you have the tools)
+
+- Step 2: Make changes or do what you want
+
+- Step 3: Compile for the platform you want with the respective Project, always including the NatunaticApi
+
+- Step 4: Play.
