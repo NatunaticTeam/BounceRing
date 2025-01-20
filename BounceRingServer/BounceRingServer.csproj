@@ -8,8 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Internal\" />
-    <Folder Include="External\" />
+    <Folder Include="BRServerInternal\" />
+    <Folder Include="BRServerExternal\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NatunaticApi\NatunaticApi.csproj" />
   </ItemGroup>
 
 </Project>

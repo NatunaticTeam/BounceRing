@@ -5,9 +5,13 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BounceRing", "BounceRing\BounceRing.csproj", "{B12496D3-7A92-4D5A-BAB3-1B35EF87B0FE}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NatunaticApi", "NatunaticApi\NatunaticApi.shproj", "{A0CDBD0E-3A41-42B7-9425-A838BC2C7383}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BounceRingServer", "BounceRingServer\BounceRingServer.csproj", "{65087424-878D-44CA-9C97-6C8513CC264E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NatunaticApi", "NatunaticApi\NatunaticApi.csproj", "{C02519AA-627A-47C5-9FC1-89B1690C9248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BounceRingAndroid", "BounceRingAndroid\BounceRingAndroid.csproj", "{2D98A324-B3B4-4486-8F45-40633F21160D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BounceRingGlobal", "BounceRingGlobal\BounceRingGlobal.csproj", "{909AFE09-C497-45CA-AE2A-2469A373EDE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,11 +27,21 @@ Global
 		{65087424-878D-44CA-9C97-6C8513CC264E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65087424-878D-44CA-9C97-6C8513CC264E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65087424-878D-44CA-9C97-6C8513CC264E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C02519AA-627A-47C5-9FC1-89B1690C9248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C02519AA-627A-47C5-9FC1-89B1690C9248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C02519AA-627A-47C5-9FC1-89B1690C9248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C02519AA-627A-47C5-9FC1-89B1690C9248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D98A324-B3B4-4486-8F45-40633F21160D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D98A324-B3B4-4486-8F45-40633F21160D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D98A324-B3B4-4486-8F45-40633F21160D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2D98A324-B3B4-4486-8F45-40633F21160D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D98A324-B3B4-4486-8F45-40633F21160D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{909AFE09-C497-45CA-AE2A-2469A373EDE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909AFE09-C497-45CA-AE2A-2469A373EDE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909AFE09-C497-45CA-AE2A-2469A373EDE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909AFE09-C497-45CA-AE2A-2469A373EDE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		NatunaticApi\natunatic.projitems*{a0cdbd0e-3a41-42b7-9425-a838bc2c7383}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

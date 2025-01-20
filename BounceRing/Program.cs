@@ -1,2 +1,2 @@
-﻿using var game = new BounceRing.MainMenu();
+﻿using var game = new BounceRingGlobal.MainMenu();
 game.Run();

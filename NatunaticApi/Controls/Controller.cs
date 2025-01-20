@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace natunatic.n4c.controls
+namespace NatunaticApi.Controls
 {
     internal class Class1
     {

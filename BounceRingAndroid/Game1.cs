@@ -12,7 +12,7 @@ namespace BounceRingAndroid
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
-            Content.RootDirectory = "Content";
+            Content.RootDirectory = "../BounceRing/Content";
             IsMouseVisible = true;
         }
 

@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework.Input;
 using System;
 using System.Diagnostics;
 
-namespace BounceRing
+namespace BounceRingGlobal
 {
     public class MainMenu : Game
     {
@@ -21,7 +21,7 @@ namespace BounceRing
         public MainMenu()
         {
             _graphics = new GraphicsDeviceManager(this);
-            Content.RootDirectory = "./Content";
+            Content.RootDirectory = "Content";
             IsMouseVisible = true;
         }
 

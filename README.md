@@ -25,16 +25,19 @@ For a better guide on how to compile, refer to the [Full Building instructions](
 
 - Requirements
 	- .NET 8.0
-	- MonoGame
-	- .NET Maui (for Android and IOS)
-	- Windows Platform Development Kit (Xbox One/Series)
 	- Visual Studio 2022
+	- MonoGame Framework
+	- .NET Multi-platform App UI development (for Android and IOS)
+	- Universal Windows Platform development (Xbox One/Series)
 
 - Step 1:
-	- Go to the BounceRing Folder (the one that only says bouncering) and open the `BounceRing.sln` file in Visual Studio 2022 (or VS Code if you have the tools)
+	- Open the `BounceRing.sln` file in Visual Studio 2022 (or VS Code if you have the tools)
 
-- Step 2: Make changes or do what you want
+- Step 2:
+	- Make changes or do what you want
 
-- Step 3: Compile for the platform you want with the respective Project, always including the NatunaticApi
+- Step 3:
+	- Compile for the platform you want with the respective Project, always including the NatunaticApi
 
-- Step 4: Play.
+- Step 4:
+	- Play.

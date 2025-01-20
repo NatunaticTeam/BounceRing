@@ -6,14 +6,15 @@ using Microsoft.Xna.Framework.Design;
 using Microsoft.Xna.Framework.Media;
 using BounceRing;
 
-namespace BounceRing.BounceRing
+namespace BounceRing
 {
     enum GameState
     {
     
     }
 
-    public class Game
+    public class BounceRingGame
     {
+        
     }
 }
