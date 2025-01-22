@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>6efba8a9-a407-4029-bdd0-651d22a87386</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>BounceRingGlobal</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BounceRing\BounceRingGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BounceRing\CButton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BounceRing\MainMenu.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BounceRing\Match.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\ball.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\bin\Android\Content\ball.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\bin\Android\Content\dialog-box.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\bin\DesktopGL\Content\ball.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\bin\DesktopGL\Content\dialog-box.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\dialog-box.png" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\Android\net8.0\Content\.mgcontent" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\Android\net8.0\Content\.mgstats" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\Android\net8.0\Content\ball.mgcontent" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\Android\net8.0\Content\dialog-box.mgcontent" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\net8.0\Content\.mgcontent" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\net8.0\Content\.mgstats" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\net8.0\Content\ball.mgcontent" />
+    <None Include="$(MSBuildThisFileDirectory)Content\obj\DesktopGL\net8.0\Content\dialog-box.mgcontent" />
+  </ItemGroup>
+</Project>

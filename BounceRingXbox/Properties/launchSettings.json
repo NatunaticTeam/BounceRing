@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "BounceRingXbox": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false,
+      "remoteDebugMachine": "XBOXONE",
+      "authenticationMode": "Windows"
+    }
+  }
+}

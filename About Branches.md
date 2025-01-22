@@ -1,0 +1,4 @@
+- Dev:
+    - Almost daily or Mostly Weekly Updates with uncompiled unstable or non-working code, experimental
+- Master:
+    - Monthly updates with compiled and stable code for common usage

@@ -13,11 +13,11 @@
     <PackageReference Include="MonoGame.Framework.Android" Version="3.8.2.1105" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BounceRingGlobal\BounceRingGlobal.csproj" />
     <ProjectReference Include="..\NatunaticApi\NatunaticApi.csproj" />
   </ItemGroup>
   <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
     <Message Text="Restoring dotnet tools" Importance="High" />
     <Exec Command="dotnet tool restore" />
   </Target>
+  <Import Project="..\BounceRingGlobal2\BounceRingGlobal2.projitems" Label="Shared" />
 </Project>
